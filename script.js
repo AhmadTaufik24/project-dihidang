@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- DATA UNTUK SEMUA SLIDER ---
     const galleryData = [
         {
-            img: 'https://images.unsplash.com/photo-1559925393-8be0ec4767c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfGFsbHx8fHx8fHx8fDE3MjIwNzE4OTJ8&ixlib=rb-4.0.3&q=80&w=1080',
+            img: 'https://raw.githubusercontent.com/AhmadTaufik24/project-dihidiang/main/images/foto/001.jpg', desc: 'Proses pemilihan daging dan bumbu utama',
             title: 'NASI GORENG CHILI OIL 1',
             desc: 'Posisi Potrait',
             pros: 'Nasi goreng disajikan rapi dengan bentuk bulat dan bumbu merata, memiliki komposisi warna menarik, dilengkapi properti pendukung lengkap, uap panas yang terlihat, pencahayaan yang menonjolkan tekstur makanan serta retouch yang tepat menyempurnakan hasil fotonya',
