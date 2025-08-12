@@ -2,22 +2,22 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- DATA UNTUK SEMUA SLIDER ---
     const galleryData = [
         {
-            img: 'https://raw.githubusercontent.com/AhmadTaufik24/project-dihidiang/main/images/foto/001.jpg', desc: 'Proses pemilihan daging dan bumbu utama',
+            img: 'https://raw.githubusercontent.com/AhmadTaufik24/project-dihidiang/main/images/foto/001.jpg',
             title: 'NASI GORENG CHILI OIL 1',
             desc: 'Posisi Potrait',
             pros: 'Nasi goreng disajikan rapi dengan bentuk bulat dan bumbu merata, memiliki komposisi warna menarik, dilengkapi properti pendukung lengkap, uap panas yang terlihat, pencahayaan yang menonjolkan tekstur makanan serta retouch yang tepat menyempurnakan hasil fotonya',
             cons: 'Cahaya di beberapa bagian terlihat sedikit agak flat karena keterbatasan lampu dan alat pencahayaan, sehingga kontras kurang maksimal untuk menonjolkan kilap dan tekstur nasi, namun masih sangat cukup untuk keperluan makanan seperti ini'
         },
         {
-            img: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfGFsbHx8fHx8fHx8fDE3MjIwNzE5MTd8&ixlib=rb-4.0.3&q=80&w=1080',
+            img: 'https://raw.githubusercontent.com/AhmadTaufik24/project-dihidiang/main/images/foto/002.jpg',
             title: 'NASI GORENG CHILI OIL 2',
             desc: 'Posisi Landscape',
             pros: 'Komposisi foto rapi dengan penataan properti yang lengkap seperti sebelumnya, nasi goreng terlihat hangat dan bertekstur jelas dengan warna yang menggugah selera dan retouch yang tepat menyempurnakan hasil fotonya',
             cons: 'Fokus foto sedikit agak terpecah karena pencahayaan agak datar sehingga kilap nasi kurang menonjol, namun masih sangat cukup untuk keperluan produk nasi seperti nasi goreng ini.'
         },
         {
-            img: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfGFsbHx8fHx8fHx8fDE3MjIwNzE5MzZ8&ixlib=rb-4.0.3&q=80&w=1080',
-            title: 'SalNASI GORENG CHILI OIL 3',
+            img: 'https://raw.githubusercontent.com/AhmadTaufik24/project-dihidiang/main/images/foto/001.jpg',
+            title: 'NASI GORENG CHILI OIL 3',
             desc: 'Campuran sayuran hijau segar, buah beri, kacang kenari, dan keju feta dengan vinaigrette lemon.',
             pros: 'Sangat menyegarkan, sehat, dan penuh warna. Tekstur beragam.',
             cons: 'Daun selada bisa cepat layu jika saus dituangkan terlalu awal.'
@@ -26,28 +26,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const mockupData = [
         {
-            img: 'assets/foto/foto1.jpg',
+            img: 'https://raw.githubusercontent.com/AhmadTaufik24/project-dihidiang/main/images/foto/001.jpg',
             title: 'Desain Feed instagram',
             desc: 'Foto hidangan menjadi visual utama dalam desain menu, memberikan gambaran yang jelas dan menggugah selera bagi pelanggan.',
         },
         {
-            img: 'https://images.unsplash.com/photo-1511920183276-5941c68a6d12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfGFsbHx8fHx8fHx8fDE3MjIwNzIwNjB8&ixlib=rb-4.0.3&q=80&w=1080',
+            img: 'https://raw.githubusercontent.com/AhmadTaufik24/project-dihidiang/main/images/foto/002.jpg',
             title: 'Konten story Instagram',
             desc: 'Visual yang kuat sangat penting untuk media sosial. Foto berkualitas tinggi dapat meningkatkan engagement dan citra merek secara signifikan.',
         },
         {
-            img: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfGFsbHx8fHx8fHx8fDE3MjIwNzIxMDN8&ixlib=rb-4.0.3&q=80&w=1080',
+            img: 'https://raw.githubusercontent.com/AhmadTaufik24/project-dihidiang/main/images/foto/001.jpg',
             title: 'Desain Menu',
             desc: 'Pada Desain Menu, foto produk berfungsi sebagai "wajah" yang menarik konsumen untuk membeli dan mencoba.',
         }
     ];
 
     const btsData = [
-    { img: 'assets/foto/foto1.jpg', desc: 'Proses pemilihan daging dan bumbu utama.' },
-    { img: 'assets/foto/foto2.jpg', desc: 'Tim sedang melakukan plating akhir sebelum pemotretan.' },
-    { img: 'assets/foto/foto3.jpg', desc: 'Suasana dapur yang sibuk namun tetap terkoordinasi.' }
-];
-
+        { img: 'https://raw.githubusercontent.com/AhmadTaufik24/project-dihidiang/main/images/foto/001.jpg', desc: 'Proses pemilihan daging dan bumbu utama.' },
+        { img: 'https://raw.githubusercontent.com/AhmadTaufik24/project-dihidiang/main/images/foto/002.jpg', desc: 'Tim sedang melakukan plating akhir sebelum pemotretan.' },
+        { img: 'https://raw.githubusercontent.com/AhmadTaufik24/project-dihidiang/main/images/foto/001.jpg', desc: 'Suasana dapur yang sibuk namun tetap terkoordinasi.' }
+    ];
 
     // --- ELEMEN & FUNGSI GALERI UTAMA ---
     const galleryImage = document.getElementById('gallery-image');
