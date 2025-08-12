@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Dihidang</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="container text-center">
+            <h1>Hasil Project di Dihidang</h1>
+            <p class="hero-quote">“Di halaman ini, saya mengumpulkan dan menyajikan hasil kerja terbaik dalam bentuk foto dan video makanan. Tersusun rapi untuk menunjukkan hasil, dedikasi, dan kualitas.”</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="galeri-foto" class="gallery-section">
+            <div class="container split-layout">
+                <div class="gallery-slider-wrapper">
+                    <div class="gallery-slider">
+                        <h1>FOTO</h1>
+                        <img src="" alt="Foto Hidangan Utama" id="gallery-image" class="zoomable">
+                        <button id="prev-btn" class="slider-nav prev"><</button>
+                        <button id="next-btn" class="slider-nav next">></button>
+                    </div>
+                </div>
+                <div class="gallery-description">
+                    <h2 id="gallery-title"></h2>
+                    <p id="gallery-desc"></p>
+                    <div class="pros-cons">
+                        <div>
+                            <h3>Kelebihan</h3>
+                            <p id="gallery-pros"></p>
+                        </div>
+                        <div>
+                            <h3>Kekurangan</h3>
+                            <p id="gallery-cons"></p>
+                        </div>
+                    </div>
+                    <a href="" target="_blank" class="cta-button">Nilai Rate ekspektasi saya 99%</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="mockup-desain" class="mockup-section">
+            <div class="container split-layout reversed">
+                <div class="gallery-description">
+                    <h2 class="section-title-left">Bagaimana Jika Foto Ini Disimpan dalam Desain?</h2>
+                    <h3 id="mockup-title"></h3>
+                    <p id="mockup-desc"></p>
+                </div>
+                <div class="gallery-slider-wrapper">
+                    <div class="gallery-slider">
+                        <img src="" alt="Foto Mockup Desain" id="mockup-image" class="zoomable">
+                        <button id="mockup-prev-btn" class="slider-nav prev"><</button>
+                        <button id="mockup-next-btn" class="slider-nav next">></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="galeri-video" class="video-section">
+            <div class="container split-layout-horizontal">
+                 <div class="video-preview">
+                     <h2 class="section-title">Dokumentasi Video</h2>
+                     <div class="video-embed-container">
+                        <iframe src="https://www.youtube.com/embed/g_m-Y6yak1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="bts-slider-wrapper">
+                    <h3>Behind The Scenes</h3>
+                    <div class="bts-slider">
+                        <img src="" alt="Foto Behind the Scenes" id="bts-image">
+                        <button id="bts-prev-btn" class="slider-nav prev"><</button>
+                        <button id="bts-next-btn" class="slider-nav next">></button>
+                    </div>
+                    <p id="bts-desc" class="bts-description"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="zoom-modal" class="modal">
+        <span class="close-btn">×</span>
+        <img class="modal-content" id="zoomed-image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
