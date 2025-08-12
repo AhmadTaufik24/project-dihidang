@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             cons: 'Fokus foto sedikit agak terpecah karena pencahayaan agak datar sehingga kilap nasi kurang menonjol, namun masih sangat cukup untuk keperluan produk nasi seperti nasi goreng ini.'
         },
         {
-            img: 'https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/001.jpg',
+            img: 'https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/003.jpg',
             title: 'NASI GORENG CHILI OIL 3',
             desc: 'Campuran sayuran hijau segar, buah beri, kacang kenari, dan keju feta dengan vinaigrette lemon.',
             pros: 'Sangat menyegarkan, sehat, dan penuh warna. Tekstur beragam.',
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
             desc: 'Visual yang kuat sangat penting untuk media sosial. Foto berkualitas tinggi dapat meningkatkan engagement dan citra merek secara signifikan.',
         },
         {
-            img: 'https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/001.jpg',
+            img: 'https://raw.githubusercontent.com/AhmadTaufik24/project-dihidang/main/images/foto/003.jpg',
             title: 'Desain Menu',
             desc: 'Pada Desain Menu, foto produk berfungsi sebagai "wajah" yang menarik konsumen untuk membeli dan mencoba.',
         }
@@ -130,5 +130,6 @@ document.addEventListener('DOMContentLoaded', () => {
     updateMockup(0);
     updateBts(0);
 });
+
 
 
